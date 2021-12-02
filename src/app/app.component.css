@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    color: darkslategrey;
+    font-weight: bolder;
+    text-shadow: 6px 6px 10px darkslategrey;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    text-align: center;
+    width: 70vw;
+    margin:auto;
+    height: 55vh;
+    margin-top: 50px;
+    font-family: fantasy;
+    border-radius: 30px;
+
+}
+input{
+    font-size: 20px;
+    color: darkslategrey;
+    text-shadow:2px 2px 3px darkslategrey;
+    border-radius: 12px;
+}
+.arrivee,.depart{
+    height: 100%;
+    justify-content:space-evenly;
+    color: darkslategrey;
+}
